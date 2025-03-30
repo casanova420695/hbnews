@@ -1,0 +1,51 @@
+[
+  {
+    "id": 7,
+    "url": "https://laist.com/news/politics/andrew-gruel-huntington-beach-city-council-appointment",
+    "headline": "Andrew Gruel Appointed to Huntington Beach City Council",
+    "image": "public/images/defaults/default5.jpg",
+    "date": "2025-03-30T18:21:03.446500Z"
+  },
+  {
+    "id": 6,
+    "url": "https://laist.com/news/politics/andrew-gruel-huntington-beach-city-council-appointment",
+    "headline": "Andrew Gruel Appointed to Huntington Beach City Council",
+    "image": "public/images/defaults/default4.jpg",
+    "date": "2025-03-30T18:05:38.332422Z"
+  },
+  {
+    "id": 5,
+    "url": "https://www.surfcityusa.com/articles/post/visit-hb-explores-the-state-of-play-in-surf-city-usa-at-2025-huntington-beach-tourism-summit/",
+    "headline": "Visit HB Unveils 'State of Play' Insights at 2025 Huntington Beach Tourism Summit in Huntington Beach",
+    "image": "public/images/5_toursigmstateofplay.jpg",
+    "date": "2025-03-30T17:37:21.005208Z"
+  },
+  {
+    "id": 1,
+    "url": "https://onscene.tv/huntington-beach-officer-crashes-injuring-4/",
+    "headline": "Officer Crashes 4 Injured",
+    "image": "public/images/defaults/default3.jpg",
+    "date": "2025-03-30T08:46:23.259270"
+  },
+  {
+    "id": 2,
+    "url": "https://www.latimes.com/socal/daily-pilot/news/story/2025-03-27/protect-hb-sues-huntington-beach-over-symphony-of-flowers",
+    "headline": "Protect HB Sues HB Over Symphony of Flowers",
+    "image": "public/images/defaults/default2.jpg",
+    "date": "2025-03-30T08:46:23.259284"
+  },
+  {
+    "id": 3,
+    "url": "https://www.yahoo.com/news/ev-charger-malfunction-sends-huntington-141900424.html",
+    "headline": "EV charger malfunction sends Huntington Beach garage up in flames",
+    "image": "public/images/defaults/default1.jpg",
+    "date": "2025-03-30T09:16:35.097820"
+  },
+  {
+    "id": 4,
+    "url": "https://southocbeaches.com/2025/03/30/huntington-beach-hotrods-n-helos-car-show-guide-sunday-march-30-2025/",
+    "headline": "Guide to the Huntington Beach HotRods and Helos Car Show",
+    "image": "public/images/4_hotrodshelos.jpg",
+    "date": "2025-03-30T09:55:29.031835"
+  }
+]

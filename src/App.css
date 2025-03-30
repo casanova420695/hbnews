@@ -1,0 +1,369 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Base styles */
+html {
+  background: #fff;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #222;
+  background: #fff;
+  margin: 0;
+}
+
+/* Dark mode */
+.App.dark-mode {
+  background: #000; /* Pure black as requested */
+  color: #fff;
+}
+
+.App.dark-mode a {
+  color: #fff;
+}
+
+.App.dark-mode a:hover,
+.App.dark-mode a:focus,
+.App.dark-mode a:active {
+  color: #f7c873;
+}
+
+.App.dark-mode .site-header,
+.App.dark-mode .site-footer {
+  border-color: #444;
+}
+
+.App.dark-mode .site-footer {
+  color: #ccc;
+}
+
+.App.dark-mode h1,
+.App.dark-mode h2,
+.App.dark-mode h3,
+.App.dark-mode h4,
+.App.dark-mode h5,
+.App.dark-mode h6 {
+  color: #fff;
+}
+
+.App.dark-mode .story a {
+  color: #fff;
+}
+
+.App.dark-mode .submenu {
+  background: #333;
+  border-color: #444;
+}
+
+.App.dark-mode .submenu-item {
+  color: #fff;
+}
+
+.App.dark-mode .submenu-item:hover {
+  background: #444;
+}
+
+.App.dark-mode .submenu-close {
+  color: #fff;
+}
+
+/* Selection styles */
+::-webkit-selection {
+  color: #fff;
+  background: #f7c873;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #f7c873;
+}
+
+::selection {
+  color: #fff;
+  background: #f7c873;
+}
+
+/* Links */
+a {
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #f3ac2b;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Times, serif;
+  color: #000;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 30px;
+}
+
+/* Buttons (e.g., Load More) */
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Playfair Display", Times, serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-primary {
+  background: #f7c873;
+  color: #fff;
+  border: 2px solid #f7c873;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #f6bf5b !important;
+  border-color: #f6bf5b !important;
+}
+
+/* App container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Stories container */
+#stories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Individual story (default view: 3 columns) */
+.story {
+  width: calc(33.33% - 13.33px);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .story {
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .story {
+    width: 100%;
+  }
+}
+
+/* Story link (headline) */
+.story a {
+  font-family: "Playfair Display", Times, serif;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px;
+  display: block;
+  line-height: 1.2;
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 992px) {
+  .story a {
+    font-size: 18px;
+    height: 43.2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .story a {
+    font-size: 16px;
+    height: 38.4px;
+  }
+}
+
+/* Story image */
+.story img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.story a:hover img {
+  opacity: 0.4;
+}
+
+/* List view (single column, no images, centered) */
+.story.list-view {
+  width: 100%;
+  text-align: center;
+}
+
+.story.list-view img {
+  display: none;
+}
+
+/* Header styles */
+.site-header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links li {
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links .social-icon {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.5s;
+}
+
+.social-links a:hover .social-icon {
+  opacity: 0.8;
+}
+
+.tools-menu {
+  position: relative;
+}
+
+.tools-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 10px;
+  list-style: none;
+  margin: 5px 0 0 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 150px; /* Fixed width for list */
+}
+
+.submenu li {
+  margin: 5px 0;
+}
+
+.submenu-item {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: left;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submenu-item:hover {
+  background: #f0f0f0;
+}
+
+.submenu-close {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Main content */
+.main-content {
+  padding: 0 20px;
+}
+
+/* Footer styles */
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
+
+.site-footer p {
+  margin: 5px 0;
+}
+
+.site-footer a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.site-footer a:hover {
+  color: #f7c873;
+}
+
+body {
+  background-color: var(--background-color, #fff);
+}
+body.dark-mode {
+  --background-color: #000;
+}
