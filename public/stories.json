@@ -1,5 +1,12 @@
 [
   {
+    "id": 12,
+    "url": "http://hbnews.us/communitZ7.html",
+    "headline": "Assemblymember Dixon Presents HR17 in Honor of Women in Carpentry",
+    "image": "public/images/12_womencarpentry.jpg",
+    "date": "2025-03-30T22:28:56.592897+00:00"
+  },
+  {
     "id": 11,
     "url": "https://www.mercurynews.com/2025/03/28/latin-music-ceo-from-huntington-beach-found-guilty-of-violating-kingpin-act/?rand=353",
     "headline": "CEO of California-based Latin music conglomerate found guilty of violating Kingpin Act",
@@ -24,7 +31,7 @@
     "id": 9,
     "url": "https://www.youtube.com/watch?v=6dFhedJHqDo",
     "headline": "March 18, City Council Meeting",
-    "image": "public/images/default2.jpg",
+    "image": "public/images/defaults/default2.jpg",
     "date": "2025-03-30T21:59:21.353244+00:00"
   },
   {
