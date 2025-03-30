@@ -137,12 +137,14 @@ function App() {
                 {story.headline}
               </a>
               {story.image && !isListView && (
-                <img
-                  src={story.image.replace('public/', '/')}
-                  alt={story.headline}
-                  loading="lazy"
-                  onError={(e) => console.log(`Failed to load image: ${e.target.src}`)}
-                />
+                <div className="image-container">
+                  <img
+                    src={story.image.replace('public/', '/')}
+                    alt={story.headline}
+                    loading="lazy"
+                    onError={(e) => console.log(`Failed to load image: ${e.target.src}`)}
+                  />
+                </div>
               )}
             </div>
           ))}
