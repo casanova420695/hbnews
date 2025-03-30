@@ -1,2 +1,5 @@
 app.py
 venv/
+node_modules/
+build/
+*.log
