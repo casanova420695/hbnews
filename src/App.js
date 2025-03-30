@@ -151,7 +151,7 @@ function App() {
       </div>
       <footer className="site-footer">
         <p>© {new Date().getFullYear()} HB.NEWS. All rights reserved.</p>
-        <p><a href="#" onClick={(e) => { e.preventDefault(); scrollToTop(); }}>Back to Top</a></p>
+        <p><button onClick={scrollToTop} className="back-to-top">Back to Top</button></p>
       </footer>
     </div>
   );

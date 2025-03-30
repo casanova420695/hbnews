@@ -367,3 +367,18 @@ body {
 body.dark-mode {
   --background-color: #000;
 }
+
+.back-to-top {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.back-to-top:hover {
+  color: #f7c873;
+}
